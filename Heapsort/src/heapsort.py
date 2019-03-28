@@ -10,9 +10,8 @@ class Heapsort:
 
   def __build_max_heap(self, arr):
     size = len(arr) - 1
-    heap_size = int(size / 2)
 
-    for i in range(heap_size, -1, -1):
+    for i in range(int(size / 2), -1, -1):
       self.__max_heapify(arr, i, size)
 
   def __max_heapify(self, arr, root_index, size):
@@ -28,7 +27,7 @@ class Heapsort:
     Root index
 
     size: int
-    Index of the last valid element of the list
+    Index of the last valid element of the list (Heap size)
     ----------
     '''
     # Initialize largest as root 

@@ -83,7 +83,7 @@ Desse forma, como estamos utilizando a notação Big-Oh, o limite superior do so
 <img src="img/eq3.png" width=290 alt="eq3">
 <br />
 <br />
----
+
 Para resolvermos a série presente em (1) tomaremos como base uma série representada em (2), sendo `x < 1`, 
 efetuando algumas manipulações.
 <br />
